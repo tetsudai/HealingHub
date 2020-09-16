@@ -1,0 +1,70 @@
+<!--
+
+  Made with love and pandas by aidswidjaja
+        https://github.com/tetsudai
+       https://aidswidjaja.github.io
+
+Filename    ::  navbar.html
+Purpose     ::  Navbar (injected with jquery)
+Project     ::  Official website for Healing Hub Inc., a peer-to-peer mental health support server. By aidswidjaja @ tetsudai.
+GitHub      ::  https://github.com/tetsudai/HealingHub
+License     ::  MIT License 2020
+
+-->
+
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="assets/icon.png">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarTarget">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarTarget" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">About Us</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">What We Do</a>
+            <a class="navbar-item">Volunteer</a>
+            <a class="navbar-item">The Team</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">Hotlines</a>
+            <a class="navbar-item">USA Treatment</a>
+            <a class="navbar-item">Online Resources</a>
+            <a class="navbar-item">Resources</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Information</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">FAQ</a>
+            <a class="navbar-item">Disclaimer</a>
+            <a class="navbar-item">Social Media</a>
+            <a class="navbar-item">Server Rules</a>
+            <a class="navbar-item">More Information</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item"><strong style="color: red">Development Version - Not for Production Use</strong></div>
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-success" onclick="getAway()">
+            <strong>Quick Exit</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
