@@ -1,0 +1,70 @@
+/*
+
+  Made with love and pandas by aidswidjaja
+        https://github.com/tetsudai
+       https://aidswidjaja.github.io
+
+Filename    ::  main.css
+Purpose     ::  Main CSS file
+Project     ::  Official website for Healing Hub Inc, a peer-to-peer mental health support server. By aidswidjaja @ tetsudai.
+GitHub      ::  https://github.com/tetsudai/HealingHub
+License     ::  MIT License 2020
+
+*/
+
+/* Elements */
+
+body {
+    font-family: 'Nunito', serif;
+}
+
+a {
+    color: #734DEA
+}
+
+a:hover {
+    color: #734DEA;
+    text-decoration: underline;
+}
+
+a.button {
+    font-weight: 900;
+}
+
+strong {
+    font-weight: 900;
+}
+
+/* Navbar */
+
+.navbar-item {
+    font-weight: 700;
+}
+
+a.navbar-item:hover {
+    font-weight: 700;
+    color: #734DEA;
+}
+
+a.navbar-link:hover {
+    color: #734DEA;
+    text-decoration: underline;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #734DEA;
+}
+
+/* Misc */
+
+.title {
+    font-weight: 900;
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+.social {
+    color: #252526;
+}

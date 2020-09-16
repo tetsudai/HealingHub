@@ -1,0 +1,137 @@
+/*
+
+  Made with love and pandas by aidswidjaja
+        https://github.com/tetsudai
+       https://aidswidjaja.github.io
+
+Filename    ::  blurple.css
+Purpose     ::  Blurple CSS button styles
+Project     ::  Official website for Healing Hub Inc, a peer-to-peer mental health support server. By aidswidjaja @ tetsudai.
+GitHub      ::  https://github.com/tetsudai/HealingHub
+License     ::  MIT License 2020
+
+*/
+
+.button.is-blurple {
+    background-color: #7289DA;
+    border-color: transparent;
+    color: #fff;
+  }
+  
+  .button.is-blurple:hover, .button.is-blurple.is-hovered {
+    background-color: #6073b5;
+    border-color: transparent;
+    color: #fff;
+  }
+  
+  .button.is-blurple:focus, .button.is-blurple.is-focused {
+    border-color: transparent;
+    color: #fff;
+  }
+  
+  .button.is-blurple:focus:not(:active), .button.is-blurple.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em rgba(114, 137, 218, 0.25);
+  }
+  
+  .button.is-blurple:active, .button.is-blurple.is-active {
+    background-color: #5a6db0;
+    border-color: transparent;
+    color: #fff;
+  }
+  
+  .button.is-blurple[disabled],
+  fieldset[disabled] .button.is-blurple {
+    background-color: #7289DA;
+    border-color: transparent;
+    box-shadow: none;
+  }
+  
+  .button.is-blurple.is-inverted {
+    background-color: #fff;
+    color: #7289DA;
+  }
+  
+  .button.is-blurple.is-inverted:hover, .button.is-blurple.is-inverted.is-hovered {
+    background-color: #f2f2f2;
+  }
+  
+  .button.is-blurple.is-inverted[disabled],
+  fieldset[disabled] .button.is-blurple.is-inverted {
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: none;
+    color: #7289DA;
+  }
+  
+  .button.is-blurple.is-loading::after {
+    border-color: transparent transparent #fff #fff !important;
+  }
+  
+  .button.is-blurple.is-outlined {
+    background-color: transparent;
+    border-color: #7289DA;
+    color: #7289DA;
+  }
+  
+  .button.is-blurple.is-outlined:hover, .button.is-blurple.is-outlined.is-hovered, .button.is-blurple.is-outlined:focus, .button.is-blurple.is-outlined.is-focused {
+    background-color: #7289DA;
+    border-color: #7289DA;
+    color: #fff;
+  }
+  
+  .button.is-blurple.is-outlined.is-loading::after {
+    border-color: transparent transparent #7289DA #7289DA !important;
+  }
+  
+  .button.is-blurple.is-outlined.is-loading:hover::after, .button.is-blurple.is-outlined.is-loading.is-hovered::after, .button.is-blurple.is-outlined.is-loading:focus::after, .button.is-blurple.is-outlined.is-loading.is-focused::after {
+    border-color: transparent transparent #fff #fff !important;
+  }
+  
+  .button.is-blurple.is-outlined[disabled],
+  fieldset[disabled] .button.is-blurple.is-outlined {
+    background-color: transparent;
+    border-color: #7289DA;
+    box-shadow: none;
+    color: #7289DA;
+  }
+  
+  .button.is-blurple.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .button.is-blurple.is-inverted.is-outlined:hover, .button.is-blurple.is-inverted.is-outlined.is-hovered, .button.is-blurple.is-inverted.is-outlined:focus, .button.is-blurple.is-inverted.is-outlined.is-focused {
+    background-color: #fff;
+    color: #7289DA;
+  }
+  
+  .button.is-blurple.is-inverted.is-outlined.is-loading:hover::after, .button.is-blurple.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-blurple.is-inverted.is-outlined.is-loading:focus::after, .button.is-blurple.is-inverted.is-outlined.is-loading.is-focused::after {
+    border-color: transparent transparent #7289DA #7289DA !important;
+  }
+  
+  .button.is-blurple.is-inverted.is-outlined[disabled],
+  fieldset[disabled] .button.is-blurple.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+    color: #fff;
+  }
+  
+  .button.is-blurple.is-light {
+    background-color: #ebfffc;
+    color: #5a6db0;
+  }
+  
+  .button.is-blurple.is-light:hover, .button.is-blurple.is-light.is-hovered {
+    background-color: #defffa;
+    border-color: transparent;
+    color: #5a6db0;
+  }
+  
+  .button.is-blurple.is-light:active, .button.is-blurple.is-light.is-active {
+    background-color: #d1fff8;
+    border-color: transparent;
+    color: #5a6db0;
+  }
+  
