@@ -1,0 +1,33 @@
+/*
+
+  Made with love and pandas by aidswidjaja
+        https://github.com/tetsudai
+       https://aidswidjaja.github.io
+
+Filename    ::  about.css
+Purpose     ::  CSS file for about/about.html
+Project     ::  Official website for Healing Hub Inc, a peer-to-peer mental health support server. By aidswidjaja @ tetsudai.
+GitHub      ::  https://github.com/tetsudai/HealingHub
+License     ::  MIT License 2020
+
+*/
+
+h3.aboutInfo {
+  color: #FFFFFF;
+}
+
+h3.aboutInfoInverse {
+  color: #363636;
+}
+
+.column {
+  margin: 1.5rem;
+}
+
+.columnHeightWorkaround {
+  margin-bottom: 1.5rem;
+}
+
+.notification {
+  padding: 20px;
+}
