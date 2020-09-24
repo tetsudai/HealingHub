@@ -55,6 +55,10 @@ a.navbar-link:hover {
     border-color: #734DEA;
 }
 
+.navbarSpace { /* compensates for space navbar takes up */
+    height: 6rem;
+}
+
 /* Misc */
 
 .title {
