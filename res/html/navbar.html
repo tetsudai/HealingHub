@@ -11,60 +11,61 @@ GitHub      ::  https://github.com/tetsudai/HealingHub
 License     ::  MIT License 2020
 
 -->
+<script src="js/nav.js"></script>
 
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <img src="../assets/icon.png">
-      </a>
+  <div class="navbar-brand">
+    <a class="navbar-item" href="../index.html">
+      <img src="../assets/icon.png">
+    </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarTarget">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
+    <a id="navbarBurger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" onclick="navclick()">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
 
-    <div id="navbarTarget" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="../../index.html">Home</a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">About Us</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="../about/about.html">What We Do</a>
-            <a class="navbar-item" href="../about/volunteer.html">Volunteer</a>
-            <a class="navbar-item">The Team</a>
-          </div>
+  <div id="navbarTarget" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="../index.html">Home</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">About Us</a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="../about/about.html">What We Do</a>
+          <a class="navbar-item" href="../about/volunteer.html">Volunteer</a>
+          <a class="navbar-item">The Team</a>
         </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">Resources</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item">Hotlines</a>
-            <a class="navbar-item">USA Treatment</a>
-            <a class="navbar-item">Online Resources</a>
-            <a class="navbar-item">Resources</a>
-          </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Resources</a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">Hotlines</a>
+          <a class="navbar-item">USA Treatment</a>
+          <a class="navbar-item">Online Resources</a>
+          <a class="navbar-item">Resources</a>
         </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">Information</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item">FAQ</a>
-            <a class="navbar-item">Disclaimer</a>
-            <a class="navbar-item">Social Media</a>
-            <a class="navbar-item">Server Rules</a>
-            <a class="navbar-item">More Information</a>
-          </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Information</a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">FAQ</a>
+          <a class="navbar-item">Disclaimer</a>
+          <a class="navbar-item">Social Media</a>
+          <a class="navbar-item">Server Rules</a>
+          <a class="navbar-item">More Information</a>
         </div>
       </div>
     </div>
-    <div class="navbar-end">
-      <div class="navbar-item">Press ESC to exit quickly</div>
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-success" onclick="getAway()">
-            <strong>Quick Exit</strong>
-          </a>
-        </div>
+  </div>
+  <div class="navbar-end">
+    <div class="navbar-item">Press ESC to exit quickly</div>
+    <div class="navbar-item">
+      <div class="buttons">
+        <a class="button is-success" onclick="getAway()">
+          <strong>Quick Exit</strong>
+        </a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
