@@ -12,22 +12,7 @@ License     ::  MIT License 2020
 
 */
 
-h3.aboutInfo {
-    color: #FFFFFF;
-}
-
-h3.aboutInfoInverse {
-    color: #363636;
-}
-
-.column {
-    margin: 1.5rem;
-}
-
-.columnHeightWorkaround {
-    margin-bottom: 1.5rem;
-}
-
-.notification {
-    padding: 20px;
+li {
+    list-style: disc;
+    list-style-position: inside;
 }

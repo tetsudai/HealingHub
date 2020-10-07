@@ -13,19 +13,22 @@ License     ::  MIT License 2020
 */
 
 @media (max-width: 768px) {
-    #default-navbarSpace {
-        height: 7.5rem;
+    /* Mobile */
+    .navbarSpace {
+        height: 9.2rem;
     }
 }
 
 @media (min-width: 769px) {
-    #default-navbarSpace {
-        height: 7.5rem;
+    /* Tablet */
+    .navbarSpace {
+        height: 9.3rem;
     }
 }
 
 @media (min-width: 1024px) {
-    #default-navbarSpace {
-        height: 2rem;
+    /* Desktop */
+    .navbarSpace {
+        height: 3.5rem;
     }
 }

@@ -12,7 +12,104 @@ License     ::  MIT License 2020
 
 */
 
-.has-image-centered {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.card {
+    width: 20rem;
+    margin: 5px;
+}
+
+.cardRole {
+    padding: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.is-centered {
+    text-align: center;
+    justify-self: center;
+}
+
+.title,
+.subtitle {
+    text-align: center;
+}
+
+.image {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    /* Mobile */
+    .card {
+        width: 100%;
+    }
+    .tile {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* Tablet */
+    .card {
+        width: 100%;
+    }
+    .container {
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* desktop */
+    .card {
+        width: 100%;
+    }
+}
+
+
+/* Notification/card polyfill */
+
+
+/* replicating backgrounds of notifications in card CSS (for maintaibility and consistency) */
+
+.teamFounders {
+    background-color: #ad74ed;
+}
+
+.teamFounders>.title {
+    color: #FFFFFF;
+}
+
+.teamHead-staff {
+    background-color: #fc9300;
+}
+
+.teamHead-staff>.title {
+    color: #FFFFFF;
+}
+
+.teamManagement {
+    background-color: #4e9ac7;
+}
+
+.teamManagement>.title {
+    color: #FFFFFF;
+}
+
+.teamModerators {
+    background-color: #307346;
+}
+
+.teamModerators>.title {
+    color: #FFFFFF;
+}
+
+.teamHelpers {
+    background-color: #f57ad2;
+}
+
+.teamHelpers>.title {
+    color: #FFFFFF;
+}

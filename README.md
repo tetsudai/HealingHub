@@ -2,7 +2,7 @@
 
 The official website for the Healing Hub Discord server and subsidiary Florence Care Packages.
 
-Created by [aidswidjaja](https://github.com/aidswidjaja) for Healing Hub Inc under the [tetsudai](https://github.com/tetsudai] project. tetsudai helps online communities grow and makes the internet a better place by providing solutions to communities all across the internet! You can learn more about us at [tetsudai.github.io](https://tetsudai.github.io)
+Created by [aidswidjaja](https://github.com/aidswidjaja) for Healing Hub Inc under the [tetsudai](https://github.com/tetsudai) project. tetsudai helps online communities grow and makes the internet a better place by providing solutions to communities all across the internet! You can learn more about us at [tetsudai.github.io](https://tetsudai.github.io).
 
 **Visit the development version of this site at [healinghub.netlify.app](https://healinghub.netlify.app) (this will form the future production version)**
 
